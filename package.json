@@ -1,0 +1,41 @@
+{
+  "name": "wc-lexi",
+  "version": "1.0.0",
+  "description": "Web Component powerful lexical text editor",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --env.MODE=production",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "start": "webpack-dev-server --env.MODE=development --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iurykrieger/wc-lexi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iurykrieger/wc-lexi/issues"
+  },
+  "homepage": "https://github.com/iurykrieger/wc-lexi#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.1.0",
+    "html-loader": "^1.3.0",
+    "html-webpack-plugin": "^4.4.1",
+    "prettier": "^2.1.1",
+    "ts-loader": "^8.0.3",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.0.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.4.4",
+    "tslint-plugin-prettier": "^2.3.0"
+  }
+}
